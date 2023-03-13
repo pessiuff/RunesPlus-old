@@ -4,7 +4,7 @@ prefix: "&6&lRUNES&f+ &8> &r"
 reloaded: "&aAyar ve dil dosyaları yenilendi."
 help_message_admin:
   - "&8&m--------------------------------------"
-  - "&6&lRUNES&f &7v0.0.1-DEV"
+  - "&6&lRUNES&f &7v1.0-BETA"
   - "&e/runesadmin get <efekt> &8- &7İstediğiniz rünü kendi envanterinize verir."
   - "&e/runesadmin give <name> <player> &8- &7İstediğiniz rünü başka bir oyuncunun envanterine verir."
   - "&e/runesadmin reload &8- &7Ayar ve dil dosyalarını yeniler."

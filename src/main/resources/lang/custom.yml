@@ -4,7 +4,7 @@ prefix: "&6&lRUNES&f+ &8> &r"
 reloaded: "&aConfiguration and language files has reloaded."
 help_message_admin:
   - "&8&m--------------------------------------"
-  - "&6&lRUNES&f &7v0.0.1-DEV"
+  - "&6&lRUNES&f &7v1.0-BETA"
   - "&e/runesadmin get <effect> &8- &7Takes rune to inventory."
   - "&e/runesadmin give <effect> <player> &8- &7Gives rune to player."
   - "&e/runesadmin reload &8- &7Reloads the configuration & language files."
