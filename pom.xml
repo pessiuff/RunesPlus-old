@@ -6,7 +6,7 @@
 
     <groupId>me.pessiuff</groupId>
     <artifactId>RunesPlus</artifactId>
-    <version>1.0-DEV</version>
+    <version>1.0-BETA</version>
     <packaging>jar</packaging>
 
     <name>RunesPlus</name>
