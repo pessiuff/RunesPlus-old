@@ -1,0 +1,18 @@
+# tr.yml (Credits: six#6186)
+
+prefix: "&6&lRUNES&f+ &8> &r"
+reloaded: "&aConfiguration and language files has reloaded."
+invalid_usage_admin: "&7Invalid usage detected. Type &e/runes admin &7to get information."
+help_message_admin:
+  - "&8&m--------------------------------------"
+  - "&6&lRUNES&f &7v0.0.1-DEV"
+  - "&e/runesadmin get <name> &8- &7Takes rune to inventory."
+  - "&e/runesadmin give <name> <player> &8- &7Gives rune to player."
+  - "&e/runesadmin reload &8- &7Reloads the configuration & language files."
+  - "&8&m--------------------------------------"
+effect_not_found: "&8Effect not found."
+rune_taken: "&aYou took a rune successfully."
+rune_given: "&aYou gave a rune successfully."
+rune_received: "&aYou've received a rune."
+rune_equipped: "&aYou've equipped a rune."
+rune_unequipped: "&cYou've unequipped a rune."

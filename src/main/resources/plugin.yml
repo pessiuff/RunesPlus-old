@@ -1,0 +1,7 @@
+name: RunesPlus
+version: '${project.version}'
+main: me.pessiuff.runesplus.RunesPlus
+api-version: 1.19
+depend: [NBTAPI]
+authors: [pessiuff]
+description: Add magical stones that gives various powers.
