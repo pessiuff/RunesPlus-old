@@ -2,7 +2,6 @@
 
 prefix: "&6&lRUNES&f+ &8> &r"
 reloaded: "&aConfiguration and language files has reloaded."
-invalid_usage_admin: "&7Invalid usage detected. Type &e/runes admin &7to get information."
 help_message_admin:
   - "&8&m--------------------------------------"
   - "&6&lRUNES&f &7v0.0.1-DEV"
