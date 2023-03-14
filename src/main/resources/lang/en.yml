@@ -6,7 +6,7 @@ help_message_admin:
   - "&8&m--------------------------------------"
   - "&6&lRUNES&f &7v1.1-BETA"
   - "&e/runesadmin get <effect> &8- &7Takes rune to inventory."
-  - "&e/runesadmin give <effect> <player> &8- &7Gives rune to player."
+  - "&e/runesadmin give <player> <effect> <level> &8- &7Gives rune to player."
   - "&e/runesadmin reload &8- &7Reloads the configuration & language files."
   - "&8&m--------------------------------------"
 effect_not_found: "&8Effect not found."

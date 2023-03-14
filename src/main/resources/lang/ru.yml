@@ -5,8 +5,8 @@ reloaded: "&aФайлы конфигурации и языковые файлы 
 help_message_admin:
   - "&8&m--------------------------------------"
   - "&6&lRUNES&f &7v1.1-BETA"
-  - "&e/runesadmin get <эффект> &8- &7Takes rune to inventory."
-  - "&e/runesadmin give <эффект> <игрок> &8- &7Gives rune to player."
+  - "&e/runesadmin get <эффект> &8- &7дает руну игроку."
+  - "&e/runesadmin give <игрок> <эффект> <уровень> &8- &7Переносит руну в инвентарь."
   - "&e/runesadmin reload &8- &7Перезагружает файлы конфигурации и языка."
   - "&8&m--------------------------------------"
 effect_not_found: "&8Эффект не найден."
