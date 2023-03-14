@@ -41,7 +41,8 @@ public class AdminCommand extends BaseCommand {
             player.sendMessage(messageClass.getMessage("effect_not_found", true));
             return;
         }
-        RuneClass rune = new RuneClass(effectType, level);
+        RuneClass rune = new RuneClass(effectType, level, messageClass);
+
         player.getInventory().addItem(rune);
         player.sendMessage(messageClass.getMessage("rune_taken", true));
     }
@@ -55,7 +56,7 @@ public class AdminCommand extends BaseCommand {
             sender.sendMessage(messageClass.getMessage("effect_not_found", true));
             return;
         }
-        RuneClass rune = new RuneClass(effectType, level);
+        RuneClass rune = new RuneClass(effectType, level, messageClass);
         target.getPlayer().getInventory().addItem(rune);
         sender.sendMessage(messageClass.getMessage("rune_given", true));
         target.getPlayer().sendMessage(messageClass.getMessage("rune_received", true));

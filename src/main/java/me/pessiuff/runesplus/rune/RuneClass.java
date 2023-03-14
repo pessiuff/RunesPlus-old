@@ -3,6 +3,7 @@ package me.pessiuff.runesplus.rune;
 import de.tr7zw.nbtapi.NBTCompound;
 import de.tr7zw.nbtapi.NBTItem;
 import de.tr7zw.nbtapi.NBTListCompound;
+import me.pessiuff.runesplus.message.MessageClass;
 import net.kyori.adventure.text.Component;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
@@ -17,11 +18,13 @@ import java.util.List;
 public class RuneClass extends ItemStack {
     private final PotionEffectType effect;
     private final Integer level;
+    private final MessageClass messageClass;
 
-    public RuneClass(@NotNull PotionEffectType effect, @NotNull Integer level) {
+    public RuneClass(@NotNull PotionEffectType effect, @NotNull Integer level, MessageClass messageClass) {
         super(Material.PLAYER_HEAD, 1);
         this.effect = effect;
         this.level = level;
+        this.messageClass = messageClass;
         this.setItemMeta(getResultItemMeta());
     }
 
@@ -38,8 +41,8 @@ public class RuneClass extends ItemStack {
         ItemMeta runeMeta = runeNBT.getItem().getItemMeta();
         runeMeta.displayName(Component.text(ChatColor.translateAlternateColorCodes('&', "&6Rune Stone")));
         List<Component> lore = new ArrayList<>();
-        lore.add(Component.text(ChatColor.translateAlternateColorCodes('&', "&eEffect: &d" + this.effect.getName())));
-        lore.add(Component.text(ChatColor.translateAlternateColorCodes('&', "&eLevel: &f" + this.level)));
+        lore.add(Component.text(ChatColor.translateAlternateColorCodes('&', messageClass.getMessage("rune_effect_lore", false) + this.effect.getName())));
+        lore.add(Component.text(ChatColor.translateAlternateColorCodes('&', messageClass.getMessage("rune_level_lore", false) + this.level)));
         runeMeta.lore(lore);
         runeNBT.getItem().setItemMeta(runeMeta);
         return runeNBT.getItem().getItemMeta();
